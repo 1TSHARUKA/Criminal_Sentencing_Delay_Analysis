@@ -116,15 +116,17 @@ This repository contains datasets, scripts, model outputs, and documentation for
 <h3>Data</h3>
 
 <ul>
-  <li><code>cook_county_sentencing.csv</code> – Processed case-level dataset from the Cook County Data Portal (pre-2025 release)</li>
+  <li><code>cook_county_2020_2024.csv</code> – Raw sentencing-level dataset from the Cook County State’s Attorney’s Office, covering 2020–2024</li>
+  <li><code>cook_county_filtered_2020_2024.csv</code> – Cleaned and filtered version of the dataset used for analysis and modeling</li>
 </ul>
 
 ---
 
-<h3>Code</h3>
+<h3>Script</h3>
 
 <ul>
-  <li><code>Sentencing_Delay_Analysis.ipynb</code> – Jupyter Notebook containing data cleaning, exploratory analysis, OLS modeling, clustering, Random Forest classification, and SHAP interpretation</li>
+  <li><code>Criminal_Sentencing_Analysis.ipynb</code> – Main notebook including preprocessing, regression modeling, clustering (Bi-Secting K-Means), Random Forest classification, and feature analysis</li>
+  <li><code>Criminal_Sentencing_Analysis.html</code> – Rendered HTML output of the notebook for easy viewing</li>
 </ul>
 
 ---
@@ -132,9 +134,14 @@ This repository contains datasets, scripts, model outputs, and documentation for
 <h3>Output</h3>
 
 <ul>
-  <li><code>OLS_results.png</code> – Visualization of regression coefficients and 95% confidence intervals</li>
-  <li><code>cluster_summary.png</code> – Cluster profiles based on offense category, sentence length, and delay</li>
-  <li><code>shap_rf_importance.png</code> – SHAP summary plot of top features from Random Forest model</li>
+  <li><code>Important_Features.png</code> – Ranked feature importance plot from Random Forest model</li>
+  <li><code>Percentage_of_Delays_COVID.png</code> – Temporal analysis of delayed arrests across COVID-19 periods</li>
+  <li><code>Parallel_Coordinates_Plot_for_Clusters.png</code> – Visualization of cluster-specific characteristics across multiple variables</li>
+  <li><code>Silhouette_Scores_Bisecting.png</code> – Silhouette score evaluation for Bi-Secting K-Means clustering</li>
+  <li><code>WCSS_Bisecting.png</code> – WCSS trend across cluster numbers for Bi-Secting K-Means</li>
+  <li><code>Silhouette_Scores_WCSS_Bisecting_Kmeans.png</code> – Combined plot of WCSS and silhouette scores for Bi-Secting K-Means cluster evaluation</li>
+
+
 </ul>
 
 ---
@@ -142,5 +149,5 @@ This repository contains datasets, scripts, model outputs, and documentation for
 <h3>Documentation</h3>
 
 <ul>
-  <li><code>Insight_report_yt583.pdf</code> – Final report detailing research question, methods, results, and policy relevance</li>
+  <li><code>Insight_report.pdf</code> – Final written report summarizing the research question, methodology, results, and policy implications</li>
 </ul>
