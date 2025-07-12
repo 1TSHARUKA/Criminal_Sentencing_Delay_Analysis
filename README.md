@@ -116,7 +116,6 @@ These can be installed using <code>pip install</code> or your preferred environm
 This repository contains datasets, scripts, model outputs, and documentation for an individual final project analyzing sentencing delays in Cook County criminal cases. The analysis incorporates regression, clustering, and machine learning techniques to explore the effects of arrest delays on sentencing outcomes.
 </p>
 
----
 
 <h3>Data</h3>
 
@@ -127,7 +126,6 @@ This repository contains datasets, scripts, model outputs, and documentation for
 | `cook_county_filtered_2020_2024.csv` | Cleaned and filtered version of the dataset used for analysis and modeling |
 
 
----
 
 <h3>Script</h3>
 
@@ -137,7 +135,6 @@ This repository contains datasets, scripts, model outputs, and documentation for
 | `Criminal_Sentencing_Analysis.ipynb` | Main notebook including preprocessing, regression modeling, clustering (Bi-Secting K-Means), Random Forest classification, and feature analysis |
 | `Criminal_Sentencing_Analysis.html`  | Rendered HTML output of the notebook for easy viewing                      |
 
----
 
 <h3>Output</h3>
 
@@ -152,7 +149,6 @@ This repository contains datasets, scripts, model outputs, and documentation for
 | `Silhouette_Scores_WCSS_Bisecting_Kmeans.png`    | Combined plot showing both WCSS and silhouette scores for cluster evaluation                     |
 
 
----
 
 <h3>Documentation</h3>
 
