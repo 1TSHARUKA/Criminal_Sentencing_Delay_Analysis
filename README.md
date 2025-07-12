@@ -49,17 +49,6 @@ This study employs a combined supervised learning and exploratory data analysis 
     </ul>
   </li>
 
-  <li><strong>Key Covariates:</strong>
-    <ul>
-      <li>Arrest delay (days between incident and arrest)</li>
-      <li>Case duration and number of charges filed</li>
-      <li>Case complexity, operationalized as an interaction between case duration and charge count</li>
-      <li>Defendant demographics: age at incident, race, and gender</li>
-      <li>COVID-19 period indicators, classified as pre-pandemic, peak disruption, and post-peak recovery phases</li>
-      <li>Offense type, aggregated into six broad categories (e.g., violent offenses, property crimes, and exploitation-related charges)</li>
-    </ul>
-  </li>
-
   <li><strong>Model Interpretation:</strong> Predictor salience and explanatory contribution were evaluated using feature importance rankings derived from the Random Forest model.</li>
 </ul>
 
@@ -131,7 +120,6 @@ This repository contains datasets, scripts, model outputs, and documentation for
 
 <h3>Data</h3>
 
-### 📂 Data Files
 
 | File Name                          | Description                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
