@@ -15,11 +15,11 @@ By Tian Tong | Instructor: Prof. NaLette Brodnax
 <h2 id="abstract">Abstract</h2>
 
 <p>
-This project investigates the relationship between arrest delay and sentencing severity using court data from Cook County (2020–2024). Motivated by prior research on perceptual justice and judicial discretion, we conduct a multi-method analysis of approximately 42,000 criminal cases.
+This project investigates the relationship between arrest delay and sentencing severity using court data from Cook County (2020–2024). Motivated by prior research on perceptual justice and judicial discretion, I conduct a multi-method analysis of approximately 42,000 criminal cases.
 <p>
 
 <p>
-We employ Ordinary Least Squares (OLS) regression to estimate the marginal effects of arrest delay, Bi-Secting K-Means clustering to identify latent case profiles, and Random Forest classification to evaluate the predictive salience of key features. Findings indicate that longer delays are modestly associated with harsher sentencing outcomes, particularly in cases involving violent offenses and sexual exploitation-related charges.
+I employ Ordinary Least Squares (OLS) regression to estimate the marginal effects of arrest delay, Bi-Secting K-Means clustering to identify latent case profiles, and Random Forest classification to evaluate the predictive salience of key features. Findings indicate that longer delays are modestly associated with harsher sentencing outcomes, particularly in cases involving violent offenses and sexual exploitation-related charges. The working paper has been published on <a href="https://arxiv.org/abs/2512.16849">arXiv</a>.
 </p>
 
 <p>
@@ -54,7 +54,7 @@ This study employs a combined supervised learning and exploratory data analysis 
 
 <p>
 For complete methodological details and empirical results, please refer to the final report:  
-<code>Insight_report_yt583.pdf</code>
+<code>Working_Paper.pdf</code>
 </p>
 
 
@@ -134,6 +134,7 @@ This repository contains datasets, scripts, model outputs, and documentation for
 |----------------------------------|-----------------------------------------------------------------------------|
 | `Criminal_Sentencing_Analysis.ipynb` | Main notebook including preprocessing, regression modeling, clustering (Bi-Secting K-Means), Random Forest classification, and feature analysis |
 | `Criminal_Sentencing_Analysis.html`  | Rendered HTML output of the notebook for easy viewing                      |
+| `Criminal_Sentencing_Analysis.pdf`  | Rendered PDF output of the notebook for easy viewing                      |
 
 
 <h3>Output</h3>
@@ -150,13 +151,6 @@ This repository contains datasets, scripts, model outputs, and documentation for
 
 
 
-<h3>Documentation</h3>
-
-
-| File Name             | Description                                                                                   |
-|----------------------|-----------------------------------------------------------------------------------------------|
-| `Insight_report.pdf` | Final written report summarizing the research question, methodology, results, and policy implications |
-
 
 <!-- CONTRIBUTORS -->
 <h2 id="contributors">Contributors</h2>
@@ -168,7 +162,7 @@ This replication study was completed as part of the final project for
 </p>
 
 <p>
-We gratefully acknowledge the original authors for publicly sharing their data, which made this replication possible. We also extend our sincere thanks to Professor NaLette Brodnax for her invaluable guidance and support throughout the project.
+I gratefully acknowledge the original authors for publicly sharing their data, which made this replication possible. I also extend our sincere thanks to Professor NaLette Brodnax for her invaluable guidance and support throughout the project.
 </p>
 
 <ul>
