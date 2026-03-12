@@ -1,5 +1,3 @@
-This repository includes the final project submission for Georgetown University's PPOL5205 – Data Science III: Advanced Modeling Techniques, Fall 2024.
-
 <h1 align="center">Criminal Sentencing Delay Analysis</h1>
 <h3 align="center">A Multi-Method Study of Cook County Cases During the COVID Era</h3>
 
